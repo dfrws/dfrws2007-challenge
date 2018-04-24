@@ -7,6 +7,7 @@ The results of existing file carving tools typically contain many false positive
 
 The previous DFRWS 2006 Challenge focused on carving basic file types in basic scenarios. The result was the development of new tools and techniques to carve files using more internal structure than only the header and footer values. The DFRWS 2007 Challenge introduced more file types and more complex fragmentation scenarios.
 
+Further details about the challenge data are available, with which you should familiarize yourself before beginning to recover the data.
 
 Challenge Organizers:
 
