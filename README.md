@@ -1,5 +1,5 @@
 # dfrws2007-challenge
-DFRWS 2007 Challenge Overview (File Carving)
+DFRWS 2007 Challenge Overview
 
 The DFRWS 2007 Challenge is an international competition to advance the state-of-the-art of data carving, which is a file recovery technique that is frequently used during digital investigations. Files are "carved" from the unallocated space using file type-specific information, such as footers, headers, and internal structures.
 
