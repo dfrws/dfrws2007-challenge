@@ -9,8 +9,7 @@ The previous DFRWS 2006 Challenge focused on carving basic file types in basic s
 
 Further details about the challenge data are available, with which you should familiarize yourself before beginning to recover the data.
 
-Challenge Organizers:
-
+CHALLENGE ORGANIZERS
 Brian Carrier
 Eoghan Casey
 Wietse Venema
