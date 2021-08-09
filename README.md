@@ -9,10 +9,12 @@ The previous DFRWS 2006 Challenge focused on carving basic file types in basic s
 
 Further details about the challenge data are available, with which you should familiarize yourself before beginning to recover the data.
 
-CHALLENGE ORGANIZERS
+## Winner
 
-Brian Carrier
+[Michael Cohen](challenge-submissions/michael.cohen) based his work on a theory of fragmentation and file mapping, and developed dedicated validators for PDF, ZIP, MIME, HTML and MPEG. His process involved evaluating possible files against an ideal mapping model, performing interpolation when discontinuities were found, and then performing error checking on the resulting files using his validation utilities. Even though Cohen did not focus on image and office file formats, his results still ended up very high, with the lowest false positive score. The high quality of the results from this approach shows promise.
 
-Eoghan Casey
+## CHALLENGE ORGANIZERS
 
-Wietse Venema
+- Brian Carrier
+- Eoghan Casey
+- Wietse Venema
