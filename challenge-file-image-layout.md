@@ -127,5 +127,6 @@ Based on the scenarios described in the previous section, a layout of files was 
 - ImageSectorOffset: The range of 512-byte sectors of this fragment in the image file. "not used" means that the fragment was not included in the image file.
 - Scenario: Id of the scenario the fragment was used in.
 
-INDIVIDUAL FILE INFORMATION
+## INDIVIDUAL FILE INFORMATION
+
 The csv text file [dfrws-challenge-file-info.txt](dfrws-challenge-file-info.txt) contains information on each file in the challenge. Each entry lists the original file name, MD5, and size. Many of the files were in the public domain, but some require attribution. Those are listed in the file [dfrws-2007-challenge-attribution.html](dfrws-2007-challenge-attribution.html).
