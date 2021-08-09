@@ -1,16 +1,16 @@
-DFRWS 2007 Challenge File Image Layout
+## OVERVIEW
 
-OVERVIEW
 The DFRWS 2007 Challenge file contained 85 complete files (not including the embedded files, such as pictures in Word documents or the files inside of ZIP files) and numerous other files that were incomplete and missing fragments. The files were used to create 89 different scenarios, which are described in the next section. Each scenario was designed to test a specific situation that might occur in a real file system. Existing tools can handle only the most basic scenarios in this challenge.
 
 The image file was created using a program that was configured based on the 89 scenarios. The distance between the fragments in a scenario and between the scenarios was random and the data in between fragments filled with either random data or small fragments of other files. The files came from either our own collections or from the Internet. Where needed, we have given credit to the corresponding files from the Internet.
 
-SCENARIOS
+## SCENARIOS
 The scenarios used for the challenge were organized into four levels, based on the difficulty of recovering the files. Each level has different scenarios based on number of fragments and file types. Each scenario was given a unique id.
 
-Level 0: Non-fragmented files:
+### Level 0: Non-fragmented files:
 
 Scenario     |   Description
+| --- | --- |
 1            |   Office
 2            |   JPG
 3            |   ZIP
@@ -24,10 +24,10 @@ Scenario     |   Description
 11           |   PDF
 12           |   MPG
 
-
-Level 1: Fragments in sequential order:
+### Level 1: Fragments in sequential order:
 
 Scenario     |   Description
+| --- | --- |
 14           |   1 Office with filler in between
 15           |   1 JPG with filler in between
 16           |   3 JPG files intertwined
@@ -55,9 +55,10 @@ Scenario     |   Description
 89           |   1 PDF with MBOX in between
 
 
-Level 2: Fragments in non-sequential order:
+### Level 2: Fragments in non-sequential order:
 
-Scenario	Description
+Scenario |	Description
+| --- | --- |
 38           |   1 JPG 2 frags (2, 1)
 39           |   1 JPG 3 frags (3, 1, 2)
 40           |   1 JPG 3 frags (3, 2, 1)
@@ -80,9 +81,10 @@ Scenario	Description
 57           |   1 EXEC 3 frags (2, 1, 3)
 
 
-Level 3: Files with missing fragments:
+### Level 3: Files with missing fragments:
 
 Scenario     |   Description
+| --- | --- |
 58           |   1 Office 2 frags, missing end (1)
 59           |   1 Office 3 frags, missing middle (1, 3)
 60           |   1 JPG 2 frags, missing end (1)
@@ -115,15 +117,15 @@ Scenario     |   Description
 87           |   2 MP4 2 frags, 1st missing end (1a, 2a, FILLER, 2b)
 88           |   MP4 and MOV, 1st missing end, 2nd missing start (MP4a, MOVb)
 
-IMAGE FILE LAYOUT
-Based on the scenarios described in the previous section, a layout of files was created. The layout can be found in the comma delimited file (dfrws2007-challenge-layout.txt) in the DFRWS 2007 Challenge repository. Each row describes a file fragment and its location. The following columns are used in the layout file:
+## IMAGE FILE LAYOUT
+Based on the scenarios described in the previous section, a layout of files was created. The layout can be found in the comma delimited file ([dfrws2007-challenge-layout.txt](dfrws2007-challenge-layout.txt)) in the DFRWS 2007 Challenge repository. Each row describes a file fragment and its location. The following columns are used in the layout file:
 
-Name: File name of fragment
-Type: Type of file
-FileIdx: The index of this file fragment (starting at 0)
-FileSectorOffset: The range of 512-byte sectors of this fragment in the original file.
-ImageSectorOffset: The range of 512-byte sectors of this fragment in the image file. "not used" means that the fragment was not included in the image file.
-Scenario: Id of the scenario the fragment was used in.
+- Name: File name of fragment
+- Type: Type of file
+- FileIdx: The index of this file fragment (starting at 0)
+- FileSectorOffset: The range of 512-byte sectors of this fragment in the original file.
+- ImageSectorOffset: The range of 512-byte sectors of this fragment in the image file. "not used" means that the fragment was not included in the image file.
+- Scenario: Id of the scenario the fragment was used in.
 
 INDIVIDUAL FILE INFORMATION
-The csv text file (dfrws-challenge-file-info.txt) contains information on each file in the challenge. Each entry lists the original file name, MD5, and size. Many of the files were in the public domain, but some require attribution. Those are listed in the file dfrws-2007-challenge-attribution.shtml.
+The csv text file [dfrws-challenge-file-info.txt](dfrws-challenge-file-info.txt) contains information on each file in the challenge. Each entry lists the original file name, MD5, and size. Many of the files were in the public domain, but some require attribution. Those are listed in the file [dfrws-2007-challenge-attribution.html](dfrws-2007-challenge-attribution.html).
