@@ -6,7 +6,7 @@ All files in the image are distributed using their original copyrights. Specific
 
 Before you begin recovering data, you should review the DFRWS submission format requirements (listed below).
 
-File image (300 Mb Zip): [dfrws-2007-challenge.zip](https://drive.google.com/file/d/1aEA243cVrsH0h3J9yraBRXlp7Fs6GcwZ/view?usp=sharing)
+File image (300 Mb Zip): [dfrws-2007-challenge.zip](https://www.dropbox.com/s/5ze0r2o1vjxf811/dfrws-2007-challenge.zip?dl=0)
 
 MD5 of raw file: 8a501f3f525c85a50a3aa0bf698bffe7
 
